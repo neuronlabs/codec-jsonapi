@@ -4,7 +4,7 @@ import (
 	"time"
 )
 
-//go:generate neuron-generator models --format=goimports --single-file --exclude=Node .
+//go:generate neurogns models methods --format=goimports --single-file --exclude=Node .
 
 // UnmarshalModel basic model used to tests in unmarshal
 type UnmarshalModel struct {
